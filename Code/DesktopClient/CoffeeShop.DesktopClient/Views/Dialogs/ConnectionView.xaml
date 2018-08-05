@@ -1,0 +1,49 @@
+﻿<Window x:Class="CoffeeShop.DesktopClient.Views.ConnectionView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoffeeShop.DesktopClient.Views"
+        mc:Ignorable="d"
+        Title="Connection" Height="300" Width="300">
+    <Grid>
+        <Grid.Resources>
+            <Style TargetType="TextBlock">
+                <Setter Property="Margin" Value="5"></Setter>
+            </Style>
+            <Style TargetType="TextBox">
+                <Setter Property="Margin" Value="2"></Setter>
+            </Style>
+        </Grid.Resources>
+        <DockPanel >
+            <Grid DockPanel.Dock="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Orientation="Vertical">
+                    <TextBlock>Data Source</TextBlock>
+                    <TextBlock>Initial Catalog</TextBlock>
+                    <TextBlock>Login</TextBlock>
+                    <TextBlock>Password</TextBlock>
+                    <TextBlock>Integrated Security</TextBlock>
+                    <TextBlock>Remember me</TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Orientation="Vertical" >
+                    <TextBox Text="{Binding DataSource}"></TextBox>
+                    <TextBox Text="{Binding InitialCatalog}"></TextBox>
+                    <TextBox Text="{Binding Login}"></TextBox>
+                    <TextBox Text="{Binding Password}"></TextBox>
+                    <CheckBox IsChecked="{Binding IntegratedSecurity}" Margin="6"></CheckBox>
+                    <CheckBox IsChecked="{Binding RememberMe}" Margin="6"></CheckBox>
+                </StackPanel>
+                
+            </Grid>
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom"  Height="60" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                <Button IsDefault="True" Command="{Binding OkCommand}" Margin ="12" Width="100">Ok</Button>
+                <Button IsCancel="True" Command="{Binding CancelCommand}" Margin="12" Width="100">Cancel</Button>
+            </StackPanel>
+            
+        </DockPanel>
+    </Grid>
+</Window>

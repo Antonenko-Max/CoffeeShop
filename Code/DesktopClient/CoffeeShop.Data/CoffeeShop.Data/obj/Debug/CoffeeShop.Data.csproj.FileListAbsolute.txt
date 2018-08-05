@@ -1,0 +1,11 @@
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Data\CoffeeShop.Data\bin\Debug\CoffeeShop.Data.dll.config
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Data\CoffeeShop.Data\bin\Debug\CoffeeShop.Data.dll
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Data\CoffeeShop.Data\bin\Debug\CoffeeShop.Data.pdb
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Data\CoffeeShop.Data\bin\Debug\Domain.dll
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Data\CoffeeShop.Data\bin\Debug\Domain.pdb
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Data\CoffeeShop.Data\bin\Debug\EntityFramework.xml
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Data\CoffeeShop.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Data\CoffeeShop.Data\obj\Debug\CoffeeShop.Data.csprojResolveAssemblyReference.cache
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Data\CoffeeShop.Data\obj\Debug\CoffeeShop.Data.dll
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Data\CoffeeShop.Data\obj\Debug\CoffeeShop.Data.pdb
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Data\CoffeeShop.Data\bin\Debug\System.Collections.Immutable.xml

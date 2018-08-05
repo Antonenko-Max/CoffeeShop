@@ -1,0 +1,7 @@
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Domain\Domain\bin\Debug\Domain.dll
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Domain\Domain\bin\Debug\Domain.pdb
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Domain\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Domain\Domain\obj\Debug\Domain.dll
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Domain\Domain\obj\Debug\Domain.pdb
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Domain\Domain\bin\Debug\System.Collections.Immutable.dll
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Domain\Domain\bin\Debug\System.Collections.Immutable.xml

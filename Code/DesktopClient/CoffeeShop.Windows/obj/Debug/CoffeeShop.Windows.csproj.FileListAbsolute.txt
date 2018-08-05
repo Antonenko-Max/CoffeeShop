@@ -1,0 +1,10 @@
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\CoffeeShop.Windows\bin\Debug\CoffeeShop.Windows.dll
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\CoffeeShop.Windows\bin\Debug\CoffeeShop.Windows.pdb
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\CoffeeShop.Windows\obj\Debug\CoffeeShop.Windows.csprojResolveAssemblyReference.cache
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\CoffeeShop.Windows\obj\Debug\CoffeeShop.Windows.dll
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\CoffeeShop.Windows\obj\Debug\CoffeeShop.Windows.pdb
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Build\CoffeeShop.Windows.dll
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Build\CoffeeShop.Windows.pdb
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Windows\obj\Debug\CoffeeShop.Windows.csprojResolveAssemblyReference.cache
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Windows\obj\Debug\CoffeeShop.Windows.dll
+E:\my docs\DOCS\programming\CoffeeShop\CoffeeShop\Code\DesktopClient\CoffeeShop.Windows\obj\Debug\CoffeeShop.Windows.pdb

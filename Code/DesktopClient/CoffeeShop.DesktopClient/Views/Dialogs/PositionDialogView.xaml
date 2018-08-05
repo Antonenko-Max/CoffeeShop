@@ -1,0 +1,35 @@
+﻿<Window x:Class="CoffeeShop.DesktopClient.Views.PositionDialogView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoffeeShop.DesktopClient.Views"
+        xmlns:viewModels="clr-namespace:CoffeeShop.DesktopClient.ViewModels"
+        mc:Ignorable="d"
+        Title="Position" Height="300" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Margin="10" Grid.ColumnSpan="2">
+            <Label>Name:</Label>
+            <TextBox Name ="PositionName"  Text="{Binding Name, ValidatesOnDataErrors=True, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            <Label Foreground="Red" Content ="{Binding ElementName=PositionName, Path=(Validation.Errors).CurrentItem.ErrorContent}"></Label>
+            <Label>Category:</Label>
+            <TextBox Name ="PositionCategory"  Text="{Binding Category, ValidatesOnDataErrors=True, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            <Label Foreground="Red" Content ="{Binding ElementName=PositionCategory, Path=(Validation.Errors).CurrentItem.ErrorContent}"></Label>
+        </StackPanel>
+        <Grid Grid.Row="1" Margin="10" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Margin="10" Command="{Binding OkCommand}" IsEnabled="{Binding IsValid}" IsDefault="True">Ok</Button>
+            <Button Grid.Column="1" Margin="10" Command="{Binding CancelCommand}" IsCancel="True">Cancel</Button>
+        </Grid>
+    </Grid></Window>

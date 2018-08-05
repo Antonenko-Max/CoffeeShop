@@ -1,0 +1,54 @@
+﻿<Window x:Class="CoffeeShop.DesktopClient.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoffeeShop.DesktopClient"
+        xmlns:windows="clr-namespace:CoffeeShop.Windows;assembly=CoffeeShop.Windows"
+        xmlns:views="clr-namespace:CoffeeShop.DesktopClient.Views"
+        xmlns:viewModels="clr-namespace:CoffeeShop.DesktopClient.ViewModels"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="825">
+        <!--d:DataContext="{d:DesignInstance view:MainViewModel}">-->
+
+    <Grid>
+        <Menu  Height="40"  VerticalAlignment="Top">
+            <MenuItem Header="Positions List" Command="{Binding ShowPositionListCommand}"></MenuItem>
+            <MenuItem Header="IngredientRows List" Command="{Binding ShowConsumablesListCommand}"></MenuItem>
+            <MenuItem Header="Sells List" Command="{Binding ShowSellsListCommand}"></MenuItem>
+            <MenuItem Header="Statistics" Command="{Binding ShowStatisticsCommand}"></MenuItem>            
+            <MenuItem Header="Settings">
+                <MenuItem Header="Connection">
+                    <MenuItem Header="Connection to SQL Server" Command="{Binding ShowDialogConnectionWindowCommand}">
+                    </MenuItem>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <TabControl ItemsSource="{Binding Tabs}" Margin="0,40,0,0">
+            <TabControl.Resources>
+                <DataTemplate DataType="{x:Type viewModels:PositionListViewModel}">
+                    <views:PositionListView/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewModels:ConsumablesListViewModel}">
+                    <views:ConsumablesListView/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewModels:SellsListViewModel}">
+                    <views:SellsListView/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewModels:StatisticsViewModel}">
+                    <views:StatisticsView/>
+                </DataTemplate>
+            </TabControl.Resources>
+
+            <TabControl.ItemTemplate>
+                <DataTemplate DataType="{x:Type windows:ITab}">
+                    <TextBlock>
+                        <Run Text="{Binding Name}"/>
+                        <Hyperlink Command="{Binding CloseCommand}">X</Hyperlink>
+                    </TextBlock>
+                </DataTemplate>
+            </TabControl.ItemTemplate>
+
+        </TabControl>
+    </Grid>
+</Window>
