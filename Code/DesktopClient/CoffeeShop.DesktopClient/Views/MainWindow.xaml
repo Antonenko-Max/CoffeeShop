@@ -14,9 +14,9 @@
     <Grid>
         <Menu  Height="40"  VerticalAlignment="Top">
             <MenuItem Header="Positions List" Command="{Binding ShowPositionListCommand}"></MenuItem>
-            <MenuItem Header="IngredientRows List" Command="{Binding ShowConsumablesListCommand}"></MenuItem>
-            <MenuItem Header="Sells List" Command="{Binding ShowSellsListCommand}"></MenuItem>
-            <MenuItem Header="Statistics" Command="{Binding ShowStatisticsCommand}"></MenuItem>            
+            <MenuItem Header="IngredientRows List" Command="{Binding ShowConsumablesListCommand}" IsEnabled="False"></MenuItem>
+            <MenuItem Header="Sells List" Command="{Binding ShowSellsListCommand}" IsEnabled="False"></MenuItem>
+            <MenuItem Header="Statistics" Command="{Binding ShowStatisticsCommand}" IsEnabled="False"></MenuItem>            
             <MenuItem Header="Settings">
                 <MenuItem Header="Connection">
                     <MenuItem Header="Connection to SQL Server" Command="{Binding ShowDialogConnectionWindowCommand}">
